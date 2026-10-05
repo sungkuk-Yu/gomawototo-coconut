@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>코코넛 섬 대모험 | 고마워토토</title>
+<title>마녀의 사과 실험실 | 고마워토토</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
   /* HERO */
   .hero{position:relative;color:#fff;text-align:center}
   .hero .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-  .hero .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(60,45,15,.36) 0%,rgba(60,45,15,.15) 40%,rgba(70,52,20,.72) 100%)}
+  .hero .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(35,12,26,.42) 0%,rgba(35,12,26,.2) 40%,rgba(42,10,22,.78) 100%)}
   .hero .inner{position:relative;padding:70px 26px 52px}
   .hero .badge{display:inline-block;font-size:12px;letter-spacing:3px;font-weight:500;background:rgba(255,255,255,.22);padding:7px 16px;border-radius:20px;margin-bottom:20px;backdrop-filter:blur(2px)}
   .hero .emoji{font-size:52px;line-height:1;margin-bottom:12px;filter:drop-shadow(0 4px 12px rgba(0,0,0,.4))}
@@ -58,17 +58,18 @@
   /* COOK */
   .cook{text-align:center}
   .cook h3{font-size:21px;font-weight:700;margin-bottom:6px}
-  .cook .photo{aspect-ratio:1280/543}
+  .cook .note{font-size:13px;color:var(--sub);margin-bottom:18px}
+  .cook .photo{aspect-ratio:4/3}
   .cook .photo img{width:100%;height:100%;object-fit:cover}
   .tags{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:18px}
-  .tag{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-align:center;font-size:14px;flex:1 1 28%;min-width:150px}
-  .tag b{display:block;font-size:15px;color:var(--green-d);margin-bottom:3px}
+  .tag{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 22px;text-align:center;font-size:14px;flex:0 1 auto}
+  .tag b{display:block;font-size:16px;color:var(--green-d);margin-bottom:4px}
 
   /* CTA */
-  .cta{padding:56px 28px 40px;text-align:center;background:linear-gradient(160deg,#c9a15c,#a97c3e)}
-  .cta h3{color:#fff;font-size:23px;font-weight:700;margin-bottom:8px;text-shadow:0 2px 10px rgba(60,40,10,.2)}
+  .cta{padding:56px 28px 40px;text-align:center;background:linear-gradient(160deg,#8a2035,#4a0f1f)}
+  .cta h3{color:#fff;font-size:23px;font-weight:700;margin-bottom:8px;text-shadow:0 2px 10px rgba(60,10,20,.3)}
   .cta p{color:#fff;opacity:.95;font-size:15px;margin-bottom:26px}
-  .btn{display:inline-block;background:#fff;color:var(--mango-d);font-weight:700;font-size:17px;padding:17px 46px;border-radius:40px;text-decoration:none;box-shadow:0 10px 26px rgba(80,50,10,.25)}
+  .btn{display:inline-block;background:#fff;color:var(--mango-d);font-weight:700;font-size:17px;padding:17px 46px;border-radius:40px;text-decoration:none;box-shadow:0 10px 26px rgba(60,10,20,.3)}
   .foot{background:var(--green-d);color:#e8f0d6;text-align:center;padding:26px;font-size:13px;letter-spacing:.5px}
   .foot .logo{font-weight:700;font-size:16px;color:#fff;letter-spacing:2px;margin-bottom:4px}
 </style>
@@ -78,64 +79,63 @@
 
   <!-- HERO -->
   <header class="hero">
-    <img class="bg" src="https://daezcmoohkxjdxbiladp.supabase.co/storage/v1/object/public/inventory/site-assets/coconut-food-hero.jpg" alt="코코넛 섬 대모험" width="1280" height="543">
+    <img class="bg" src="img/hero_uv_apple.jpg" alt="손전등 아래 신비롭게 빛나는 사과" width="963" height="945">
     <div class="veil"></div>
     <div class="inner">
-      <span class="badge">여름 오감 체험 · 다회권 회원 전용</span>
-      <div class="emoji">🥥</div>
-      <h1>코코넛 섬 대모험</h1>
-      <p class="lead">파도를 넘고 또 넘어, 여기까지 왔어요.<br>단단한 껍질 속에 숨겨온 건 <b>먼 바다의 이야기</b>.<br>아이가 '작은 모험가의 용기'를 만나는 여름.</p>
+      <span class="badge">다가오는 시즌 · 10.28~11.15</span>
+      <div class="emoji">🍎</div>
+      <h1>마녀의 사과 실험실</h1>
+      <p class="lead">마녀가 잠든 틈, 백설공주를 위해<br><b>마녀의 실험 노트</b>를 펼쳐요.<br>추운 계절을 지나 더 달콤해진<br>사과의 비밀을 찾아 나서는 가을.</p>
     </div>
   </header>
 
   <!-- STORY -->
   <section class="sec story">
-    <span class="kicker">漂流 · 파도를 넘어온 작은 모험가</span>
-    <h2>코코넛은 대체,<br>어디서 온 걸까요?</h2>
-    <p>흙방 가득 쌓인 흙 속에서 아이들은 낯선 손님, <b>진짜 코코넛</b>을 두 손으로 찾아냅니다. 통째로 들어보고, 귀에 대고 흔들어 안에서 찰랑이는 물소리도 들어봐요. "이건 대체 어디서 온 걸까?" 첫 질문이 시작되는 순간이에요.</p>
+    <span class="kicker">가을 사과밭 · 마녀 몰래 백설공주를 구하는 하루</span>
+    <h2>왜 이 사과는<br>이렇게 반짝일까요?</h2>
+    <p>진짜 사과나무를 관찰하며 사과를 직접 만나고, 숲 속 흙에 숨어 반짝이는 <b>수상한 사과</b>를 찾아 나섭니다. 손전등을 비추자 드러나는 낯선 빛 — 이 사과, 정말 마녀의 것일까요?</p>
 
-    <div class="photo"><img src="img/act_smell.jpg" alt="코코넛을 안고 향을 맡아보는 아이" width="1000" height="1500"><div class="cap">흙방에서 찾은 코코넛을 꼭 안아보는 아이</div></div>
+    <div class="photo"><img src="img/act_witch_hands.jpg" alt="마녀처럼 사과 세 알을 감싸 쥔 손" width="657" height="703"><div class="cap">마녀가 잠든 틈, 몰래 훔쳐본 사과 세 알</div></div>
 
-    <p>작은 손으로는 절대 못 여는 두꺼운 껍질. 그 안엔 <b>새하얀 코코넛 속살</b>과, 먼 바다를 건너온 이야기가 함께 숨어있어요. 내시경 카메라로 몰래 들여다보면 아이들 눈이 반짝여요.</p>
-    <div class="quote">"코코넛, 대체 여기까지 어떻게 온 거예요?"</div>
-    <p>사실 이 단단한 껍질이 코코넛의 진짜 비밀이에요. 파도에 휩쓸려도, 뜨거운 햇볕 아래서도 속살을 지켜내며 새 땅에 닿을 때까지 버텨내는 <b>여행자의 갑옷</b>이었던 거죠. 아이들은 직접 만져보며 그 이야기를 배웁니다.</p>
+    <p>추운 계절을 지나 더 달콤해진 사과의 비밀을 알아보고, 초록과 빨강 사과가 번갈아 놓인 <b>패턴 암호</b>를 풀어봅니다.</p>
+    <div class="quote">"다음엔 초록일까, 빨강일까?"</div>
+    <p>패턴 사과 암호를 풀어야 잠든 마녀 몰래 백설공주를 구할 수 있어요.</p>
 
     <div class="heart">
-      <p>낯선 곳에서도 씩씩하게 나아가는<br>작은 여행자처럼—<br><b>오늘 우리 아이도 두려움 없이<br>새로운 것을 만나는 용기를 배웁니다.</b></p>
+      <p>엄마 아빠도 어릴 적 마음 졸이며 읽었던 백설공주 이야기 —<br><b>오늘은 우리 아이가 그 이야기 속으로 들어가,<br>사과 안에 숨은 진짜 가을의 비밀을 만납니다.</b></p>
     </div>
   </section>
 
   <!-- ACTIVITY FLOW -->
   <section class="sec acts">
-    <h3>🌿 흙방에서 펼쳐지는 다섯 장면</h3>
-    <div class="sh">흙 속 코코넛 한 알에서 나만의 코코넛 치킨까지</div>
+    <h3>🍏 흙방에서 펼쳐지는 마녀의 실험</h3>
+    <div class="sh">흙 한 줌 탐색에서 마녀의 사과를 찾아내기까지</div>
     <div class="step"><div class="n">1</div><div class="t"><b>흙 탐색</b><span>흙방 가득한 흙을 손으로 헤집으며 탐험 시작</span></div></div>
-    <div class="step"><div class="n">2</div><div class="t"><b>코코넛 내시경 관찰</b><span>작은 카메라로 코코넛 속을 몰래 들여다보기</span></div></div>
-    <div class="step"><div class="n">3</div><div class="t"><b>테이블야자 심기</b><span>작은 손으로 야자 모종을 흙에 심어보는 시간</span></div></div>
-    <div class="step"><div class="n">4</div><div class="t"><b>숨은 코코넛 찾기</b><span>흙 속에 숨어있는 진짜 코코넛을 찾아 안아보기</span></div></div>
-    <div class="step"><div class="n">5</div><div class="t"><b>코코넛 치킨 만들기</b><span>코코넛 옷을 입혀 나만의 치킨을 튀겨내는 요리방</span></div></div>
+    <div class="step"><div class="n">2</div><div class="t"><b>사과 & 사과나무 탐색</b><span>진짜 사과나무를 관찰하고, 사과를 직접 만져보기</span></div></div>
+    <div class="step"><div class="n">3</div><div class="t"><b>사과 패턴 놀이</b><span>초록과 빨강, 규칙을 찾아 패턴 암호 풀기</span></div></div>
+    <div class="step"><div class="n">4</div><div class="t"><b>마녀의 사과 찾기</b><span>손전등을 비추면 드러나는 수상한 사과, 숲에 숨은 마녀의 흔적 쫓기</span></div></div>
   </section>
 
   <!-- MOMENT photo -->
-  <div class="photo rounded"><img src="img/act_crack.jpg" alt="반으로 쪼갠 코코넛 속살을 보며 웃는 아이" width="1000" height="1500"><div class="cap">딱딱한 껍질을 열면 나타나는 하얀 속살, 그리고 아이의 웃음</div></div>
+  <div class="photo rounded"><img src="img/act_bench_apples.jpg" alt="초록과 빨강 사과가 번갈아 놓인 나무 벤치" width="708" height="630"><div class="cap">패턴 암호의 첫 번째 단서, 초록과 빨강이 번갈아 놓인 사과</div></div>
 
   <!-- COOK -->
   <section class="sec cook">
-    <span class="kicker">요리방 · 진짜 먹는 시간</span>
-    <h3>손끝으로 입히고, 바삭하게 완성하고</h3>
-    <div class="photo"><img src="img/food_detail.jpg" alt="완성된 코코넛 치킨" width="1280" height="543"></div>
+    <span class="kicker">요리방 · 진짜 만드는 시간</span>
+    <h3>제철 사과로 빚어내는 자연스러운 단맛</h3>
+    <div class="note" style="margin-bottom:10px">할로윈 주간이 지나도, 그 분위기는 까만 블랙번 버거로 계속 이어져요 🎃</div>
+    <div class="photo"><img src="img/food_child_cook.jpg" alt="아이가 직접 사과 블랙번버거 재료를 섞는 모습" width="554" height="756"></div>
+    <div class="note">※ 유아가 만든 요리는 개별 포장해 드려요 · 컨텐츠 내용은 진행 상황에 따라 변경될 수 있어요</div>
     <div class="tags">
-      <div class="tag"><b>코코넛 치킨</b>코코넛 가루 옷을 직접 입혀 바삭하게</div>
-      <div class="tag"><b>개별 포장 선물</b>내가 만든 치킨을 그대로 담아가는 뿌듯함</div>
-      <div class="tag"><b>테이블야자 화분</b>내 손으로 심은 야자를 집으로</div>
+      <div class="tag"><b>사과 블랙번버거</b>사과를 넣은 패티에 까만 블랙번을 더한 할로윈 버거</div>
     </div>
   </section>
 
   <!-- CTA -->
   <section class="cta">
-    <h3>용기가 피운 작은 모험</h3>
-    <p>수업을 마칠 때마다 선물을 받을 수 있어요. 운이 좋으면 쿠폰도!</p>
-    <a class="btn" href="https://m.toto-booking.com/member/?book=1">예약하기 →</a>
+    <h3>가을이 깊어지면,<br>마녀의 실험실이 열려요</h3>
+    <p>10월 28일 ~ 11월 15일</p>
+    <a class="btn" href="#" onclick="alert('선예약 페이지 준비 중입니다. 곧 만나요!'); return false;">선예약 준비 중 →</a>
   </section>
 
   <footer class="foot">
